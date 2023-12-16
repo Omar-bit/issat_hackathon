@@ -2,7 +2,7 @@ import React from 'react';
 import palestine from '../assets/palestine.png';
 function Header() {
   return (
-    <header className='fixed w-full'>
+    <header className='fixed w-full shadow-md'>
       <nav className='bg-white border-gray-200 py-2.5 '>
         <div className=' flex  items-center justify-center max-w-screen-xl px-4 mx-auto'>
           <a href='#' className='text-center flex items-center'>
