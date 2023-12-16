@@ -5,8 +5,8 @@ function Recognize() {
   const [isLoading, setIsLoading] = React.useState(false);
 
   return (
-    <form className='w-[60%]'>
-      <div className=' p-3   w-full '>
+    <form className='w-[60%] '>
+      <div className=' p-3   w-full border-b border-gray-900/10 '>
         <h2 className='text-base font-semibold leading-7 text-gray-900'>
           Recognition
         </h2>
