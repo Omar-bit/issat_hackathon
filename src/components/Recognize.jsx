@@ -3,6 +3,7 @@ import { PhotoIcon, UserCircleIcon } from '@heroicons/react/24/solid';
 
 function Recognize() {
   const [isLoading, setIsLoading] = React.useState(false);
+  const [searched, setSearched] = React.useState(false);
 
   return (
     <form className='w-[60%] '>
@@ -46,11 +47,16 @@ function Recognize() {
             </div>
           </div>
           <div className='flex-1 flex flex-col gap-3 justify-center items-center'>
-            <div className='animate-pulse p-3 w-[80%] bg-gray-400 rounded-lg'></div>
+            {!searched && (
+              <>
+                <div className='animate-pulse p-3 w-[80%] bg-gray-400 rounded-lg'></div>
 
-            <div className='animate-pulse p-3 w-[80%] bg-gray-400 rounded-lg'></div>
+                <div className='animate-pulse p-3 w-[80%] bg-gray-400 rounded-lg'></div>
 
-            <div className=' animate-pulse p-3 w-[80%] bg-gray-400 rounded-lg'></div>
+                <div className=' animate-pulse p-3 w-[80%] bg-gray-400 rounded-lg'></div>
+                <div className=' animate-pulse p-3 w-[80%] bg-gray-400 rounded-lg h-36'></div>
+              </>
+            )}
           </div>
         </div>
       </div>
