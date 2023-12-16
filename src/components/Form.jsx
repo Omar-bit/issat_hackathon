@@ -184,6 +184,7 @@ function Form() {
                 >
                   <option>Female</option>
                   <option>Male</option>
+                  <option>Taffeli</option>
                   <option>Non Binary</option>
                 </select>
               </div>
