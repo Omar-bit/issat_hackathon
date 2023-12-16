@@ -17,7 +17,7 @@ function Footer() {
         <span className='block text-sm text-center text-gray-500 '>
           © 2023 issat hackathon. Distributed by{' '}
           <a href='#' className='text-purple-600 hover:underline '>
-            Team name
+            Roudayna's Team
           </a>
         </span>
       </div>
