@@ -182,7 +182,7 @@ function Form() {
                 >
                   <option>Female</option>
                   <option>Male</option>
-                  <option>None Binary</option>
+                  <option>Non Binary</option>
                 </select>
               </div>
             </div>
