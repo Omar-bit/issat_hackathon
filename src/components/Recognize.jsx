@@ -6,12 +6,12 @@ function Recognize() {
   const [searched, setSearched] = React.useState(false);
 
   return (
-    <form className='w-[60%] '>
+    <form className=' w-full md:w-[60%] '>
       <div className=' p-3   w-full border-b border-gray-900/10 '>
         <h2 className='text-base font-semibold leading-7 text-gray-900'>
           Recognition
         </h2>
-        <div className='flex gap-5 justify-center w-full'>
+        <div className='flex flex-col md:flex-row gap-5 justify-center w-full'>
           <div className='col-span-full flex-1'>
             <label
               htmlFor='cover-photo'
