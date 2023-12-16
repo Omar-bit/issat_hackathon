@@ -2,12 +2,12 @@ import React from 'react';
 import Form from './Form';
 function Content({ isUpload, setIsUpload }) {
   return (
-    <div className='p-10 dark:bg-gray-900'>
+    <div className='p-10 '>
       <ul className='flex items-stretch justify-center mt-4 font-medium gap-1 lg:space-x-8 lg:mt-0 w-full'>
         <li>
           <a
             onClick={() => setIsUpload((prev) => !prev)}
-            className={`block p-2 text-purple-700  rounded lg:bg-transparent  dark:text-white cursor-pointer
+            className={`block p-2 text-purple-700  rounded lg:bg-transparent   cursor-pointer
                   ${isUpload ? 'border-2 border-purple-700 ' : ''}
                   `}
             aria-current='page'
@@ -18,7 +18,7 @@ function Content({ isUpload, setIsUpload }) {
         <li>
           <a
             onClick={() => setIsUpload((prev) => !prev)}
-            className={`block p-2 text-purple-700  rounded lg:bg-transparent dark:text-white cursor-pointer
+            className={`block p-2 text-purple-700  rounded lg:bg-transparent  cursor-pointer
                   ${!isUpload ? 'border-2 border-purple-700 ' : ''}
                   `}
             aria-current='page'
